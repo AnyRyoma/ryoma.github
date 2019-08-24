@@ -199,31 +199,7 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><script>
- function GetRandomNum(Min,Max)
-  {
-    var Range = Max - Min;
-    var Rand = Math.random();
-    return(Min + Math.round(Rand * Range));
-  }
-function setSidebarMarginTop (headerOffset) {
-    return $('#sidebar').css({ 'margin-top': headerOffset });
-  }
- function getHeaderOffset () {
-    return $('.header-inner').height() + CONFIG.sidebar.offset;
-  }
-  window.onload=function(){
-    var subtitle = "海的彼岸有我未曾见证的风采. W不怕万人阻挡，只怕自己投降。W你如何回忆，决定你是一个怎样的人！";
-     var mytitle = subtitle.split("W");
-     var max = mytitle.length-1;
-     var index = GetRandomNum(0,max);
-     var text = mytitle[index];
-     $("#helloTitle").html(text);
-     var headOffset = getHeaderOffset();
-     setSidebarMarginTop(headOffset);
-  }
-</script>
-<div class="site-brand-wrapper">
+      <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta">
     
 
@@ -236,7 +212,7 @@ function setSidebarMarginTop (headerOffset) {
     </div>
     
       
-        <p class="site-subtitle" id="helloTitle" itemprop="description"></p>
+        <h1 class="site-subtitle" itemprop="description">不怕万人阻挡，只怕自己投降。</h1>
       
     
     
