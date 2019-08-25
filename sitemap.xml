@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/docs/categories/index.html</loc>
+    
+    <lastmod>2019-08-25T08:22:57.899Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/docs/tags/index.html</loc>
+    
+    <lastmod>2019-08-25T08:21:39.251Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/2016/03/12/2019-07-20-Git%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2019-08-25T08:07:11.677Z</lastmod>
@@ -72,23 +86,9 @@
   </url>
   
   <url>
-    <loc>/docs/tags/index.html</loc>
-    
-    <lastmod>2019-08-24T09:08:13.353Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>/docs/index.html</loc>
     
     <lastmod>2019-08-24T09:08:05.086Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/docs/categories/index.html</loc>
-    
-    <lastmod>2019-08-24T09:05:32.164Z</lastmod>
     
   </url>
   
