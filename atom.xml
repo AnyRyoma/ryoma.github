@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-08-27T03:14:23.662Z</updated>
+  <updated>2019-08-27T07:41:51.959Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo-Next主题:博客内容美化</title>
+    <link href="/2019/07/28/Hexo-Next%E4%B8%BB%E9%A2%98-%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E7%BE%8E%E5%8C%96/"/>
+    <id>/2019/07/28/Hexo-Next主题-博客内容美化/</id>
+    <published>2019-07-28T06:47:22.000Z</published>
+    <updated>2019-08-27T07:41:51.959Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="主题自带样式-文本居中引用"><a href="#主题自带样式-文本居中引用" class="headerlink" title="主题自带样式 文本居中引用"></a>主题自带样式 文本居中引用</h3><p>效果：</p><blockquote class="blockquote-center"><p>人生乃是一面镜子，<br>从镜子里认识自己，<br>我要称之为头等大事，<br>也只是我们追求的目的！</p></blockquote><p>源码：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% cq %&#125;</span><br><span class="line">人生乃是一面镜子，</span><br><span class="line">从镜子里认识自己，</span><br><span class="line">我要称之为头等大事，</span><br><span class="line">也只是我们追求的目的！</span><br><span class="line">&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure><h3 id="主题自带样式-note-标"><a href="#主题自带样式-note-标" class="headerlink" title="主题自带样式 note 标"></a>主题自带样式 note 标</h3><h4 id="default-样式"><a href="#default-样式" class="headerlink" title="default 样式"></a>default 样式</h4><div class="note default">            <p>这里是 default 样式</p>          </div><p>源码为<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note <span class="keyword">default</span> %&#125;</span><br><span class="line">这里是 <span class="keyword">default</span> 样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p><h4 id="primary-样式"><a href="#primary-样式" class="headerlink" title="primary 样式"></a>primary 样式</h4><div class="note primary">            <p>这里是 primary 样式</p>          </div><p>源码为<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note primary %&#125;</span><br><span class="line">这里是 primary 样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p><h4 id="success-样式"><a href="#success-样式" class="headerlink" title="success 样式"></a>success 样式</h4><div class="note success">            <p>这里是 success 样式</p>          </div><p>源码为<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note success %&#125;</span><br><span class="line">这里是 success 样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p><h4 id="info-样式"><a href="#info-样式" class="headerlink" title="info 样式"></a>info 样式</h4><div class="note info">            <p>这里是 info 样式</p>          </div><p>源码为<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note info %&#125;</span><br><span class="line">这里是 info 样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p><h4 id="warning-样式"><a href="#warning-样式" class="headerlink" title="warning 样式"></a>warning 样式</h4><div class="note warning">            <p>这里是 warning 样式</p>          </div><p>源码为:<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note warning %&#125;</span><br><span class="line">这里是 warning 样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p><h4 id="danger-样式"><a href="#danger-样式" class="headerlink" title="danger 样式"></a>danger 样式</h4><div class="note danger">            <p>这里是 danger 样式</p>          </div><p>源码为:<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note danger %&#125;</span><br><span class="line">这里是 danger 样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p><h4 id="danger-no-icon-样式"><a href="#danger-no-icon-样式" class="headerlink" title="danger no-icon 样式"></a>danger no-icon 样式</h4><div class="note danger no-icon">            <p>这里是 danger no-icon 样式</p>          </div><p>源码为:<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note danger no-icon %&#125;</span><br><span class="line">这里是 danger no-icon 样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;主题自带样式-文本居中引用&quot;&gt;&lt;a href=&quot;#主题自带样式-文本居中引用&quot; class=&quot;headerlink&quot; title=&quot;主题自带样式 文本居中引用&quot;&gt;&lt;/a&gt;主题自带样式 文本居中引用&lt;/h3&gt;&lt;p&gt;效果：&lt;/p&gt;
+&lt;blockquote class=
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="/categories/Hexo/"/>
+    
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="NexT内容美化" scheme="/tags/NexT%E5%86%85%E5%AE%B9%E7%BE%8E%E5%8C%96/"/>
+    
+  </entry>
   
   <entry>
     <title>equals与==的区别</title>
