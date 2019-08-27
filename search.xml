@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[as]]></title>
+    <url>%2F2019%2F08%2F27%2Fas%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>cate</category>
+      </categories>
+      <tags>
+        <tag>tag</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[equals与==的区别]]></title>
     <url>%2F2017%2F06%2F03%2F2017-06-03-equals%E4%B8%8E-%E7%9A%84%E5%8C%BA%E5%88%AB%2F</url>
     <content type="text"><![CDATA[在面试中这是个常见问题，所以想记录下来 == 是一个运算符。 equals则是string对象的方法。 java中 值类型 是存储在内存中的栈中。而引用类型在栈中仅仅是存储引用类型变量的地址，而其本身则存储在堆中。所以字符串的内容相同，引用地址不一定相同，有可能创建了多个对象。 ==操作比较的是两个变量的值是否相等，对于引用型变量表示的是两个变量在堆中存储的地址是否相同，即栈中的内容是否相同。 equals将此字符串与指定的对象比较。当且仅当该参数不为 null，并且是与此对象表示相同字符序列的 String 对象时，结果才为 true。即堆中的内容是否相同。==比较的是2个对象的地址（栈中），而equals比较的是2个对象的内容（堆中）。所以当equals为true时，==不一定为true。 下面是String类equals方法源码，它复写了类 Object 中的 equals方法。 123456789101112131415161718192021public boolean equals(Object anObject) &#123; if (this == anObject) &#123; return true; &#125; if (anObject instanceof String) &#123; String anotherString = (String)anObject; int n = value.length; if (n == anotherString.value.length) &#123; char v1[] = value; char v2[] = anotherString.value; int i = 0; while (n-- != 0) &#123; if (v1[i] != v2[i]) return false; i++; &#125; return true; &#125; &#125; return false; &#125; 上面已经说到equals是比较两个对象的内容，我们可以看到方法中，先是比较两个String对象是否为同一对象，如果是就直接返回true（两个对象为同一对象那他们的内容必然相等）。 如果不是同一对象，先确定传入的对象是否是String类型，如果是，则比较两对象的字符序列（String类内部存储是用char[]实现的，可以查看源码了解），遍历过程中只要有一个字符不相同，就返回false，否则返回true。这里注意比较次数为第一个String对象的长度n，而不是传入的String对象参数的长度。]]></content>
@@ -17,7 +28,8 @@
     <url>%2F2016%2F03%2F12%2F2019-07-20-Git%E5%AD%A6%E4%B9%A0%2F</url>
     <content type="text"><![CDATA[记录Git常用命令 一、概述先用一幅图，从总体上描述主要git命令的工作流程 workspace: 本地的工作目录。（记作A） index：缓存区域，临时保存本地改动。（记作B） local repository: 本地仓库，只想最后一次提交HEAD。（记作C） remote repository：远程仓库。（记作D） 二、命令笔记以下所有的命令的功能说明，都采用上述的标记的A、B、C、D的方式来阐述。 初始化 git init //创建 git clone /path/to/repository //检出 git config --global user.email &quot;you@example.com&quot; //配置email git config --global user.name &quot;Name&quot; //配置用户名 操作 git add &lt;file&gt;// 文件添加，A → B git add .// 所有文件添加，A → B git commit -m &quot;代码提交信息&quot;//文件提交，B → C git commit --amend //与上次commit合并, *B → C git push origin master //推送至master分支, C → D git pull //更新本地仓库至最新改动， D → A git fetch //抓取远程仓库更新， D → C git log //查看提交记录 git status //查看修改状态 git diff//查看详细修改内容 git show//显示某次提交的内容 撤销操作 git reset &lt;file&gt;//某个文件索引会回滚到最后一次提交， C → B git reset//索引会回滚到最后一次提交， C → B git reset --hard // 索引会回滚到最后一次提交， C → B → A git checkout// 从index复制到workspace， B → A git checkout -- files // 文件从index复制到workspace， B → A git checkout HEAD -- files // 文件从local repository复制到workspace， C → A 分支相关 git checkout -b branch_name //创建名叫“branch_name”的分支，并切换过去 git checkout master //切换回主分支 git branch -d branch_name // 删除名叫“branch_name”的分支 git push origin branch_name //推送分支到远端仓库 git merge branch_name // 合并分支branch_name到当前分支(如master) git rebase //衍合，线性化的自动， D → A 冲突处理 git diff //对比workspace与index git diff HEAD //对于workspace与最后一次commit git diff &lt;source_branch&gt; &lt;target_branch&gt; //对比差异 git add &lt;filename&gt; //修改完冲突，需要add以标记合并成功 其他 gitk //开灯图形化git git config color.ui true //彩色的 git 输出 git config format.pretty oneline //显示历史记录时，每个提交的信息只显示一行 git add -i //交互式添加文件到暂存区 如果想更深入地了解git用法，可参考： Git简明指南(中文版) 图解Git Git完整命令地址 Git branching model 25个Git用法技巧]]></content>
       <categories>
-        <category>Git工具</category>
+        <category>Git</category>
+        <category>git常用命令</category>
       </categories>
       <tags>
         <tag>git</tag>

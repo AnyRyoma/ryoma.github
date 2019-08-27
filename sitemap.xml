@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2019/08/27/as/</loc>
+    
+    <lastmod>2019-08-27T01:16:07.001Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2016/03/12/2019-07-20-Git%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-08-27T01:11:20.352Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/about/index.html</loc>
+    
+    <lastmod>2019-08-25T08:28:07.152Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/docs/friends/index.html</loc>
+    
+    <lastmod>2019-08-25T08:28:07.101Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/photos/index.html</loc>
+    
+    <lastmod>2019-08-25T08:28:07.048Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/guestbook/index.html</loc>
+    
+    <lastmod>2019-08-25T08:26:47.907Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/docs/categories/index.html</loc>
     
     <lastmod>2019-08-25T08:22:57.899Z</lastmod>
@@ -16,23 +58,9 @@
   </url>
   
   <url>
-    <loc>/2016/03/12/2019-07-20-Git%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2019-08-25T08:07:11.677Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>/404.html</loc>
     
     <lastmod>2019-08-24T14:23:01.960Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/photos/index.html</loc>
-    
-    <lastmod>2019-08-24T09:34:53.437Z</lastmod>
     
   </url>
   
@@ -65,20 +93,6 @@
   </url>
   
   <url>
-    <loc>/docs/friends/index.html</loc>
-    
-    <lastmod>2019-08-24T09:23:16.569Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/guestbook/index.html</loc>
-    
-    <lastmod>2019-08-24T09:17:59.116Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>/commonweal/index.html</loc>
     
     <lastmod>2019-08-24T09:11:24.231Z</lastmod>
@@ -89,13 +103,6 @@
     <loc>/docs/index.html</loc>
     
     <lastmod>2019-08-24T09:08:05.086Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/about/index.html</loc>
-    
-    <lastmod>2019-08-24T09:05:11.540Z</lastmod>
     
   </url>
   
